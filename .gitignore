@@ -1,3 +1,5 @@
+# ignore the ieee_by_stcrestrada
+ieee_by_stcrestrada/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
