@@ -1,0 +1,24 @@
+[flake8]
+max-line-length = 90
+
+
+# E203: Whitespace before ':' (conflicts with black)
+# W503: Line break before binary operator (conflicts with black)
+# D100: Missing docstring in public module
+# D104: Missing docstring in public package
+# D102: Missing docstring in public method
+ignore = 
+    E203
+    W503
+    D100
+    D104
+    D102
+    D200
+    D400
+    D107
+    D205
+    
+
+# Exclude the xploreapi.py file from flake8 checks
+exclude = 
+    ieee_search/core/xploreapi.py
