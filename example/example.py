@@ -4,4 +4,4 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-query = XPLORE(os.getenv('IEEE_API_KEY'))
+query = XPLORE(os.getenv("IEEE_API_KEY"))
