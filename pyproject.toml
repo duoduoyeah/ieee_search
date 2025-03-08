@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "ieee_search"
+version = "0.1.0"
+description = "Query IEEE Xplore API"
+authors = ["Shiyuan Li <lizhicuo2020@gmail.com>"]
+packages = [{include = "ieee_search"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "*"
+python-dotenv = "*"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+pytest-cov = "*"
+flake8 = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+# For newer versions of flake8 that support pyproject.toml configuration
+[tool.flake8]
+max-line-length = 88
+exclude = [".venv", ".git", "__pycache__", "build", "dist"]
