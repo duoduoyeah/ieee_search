@@ -4,11 +4,11 @@
 
 ```bash
 poetry shell
-python ./example/search.py
+python ./example/example.py
 ```
 
 2. Use poertry in vscode to run the script:
 
 ```bash
-poetry run python ./example/search.py
+poetry run python ./example/example.py
 ```
